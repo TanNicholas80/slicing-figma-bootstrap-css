@@ -1,0 +1,610 @@
+@font-face {
+    font-family: nunito;
+    src: url(../font/Nunito-ExtraBold.ttf);
+}
+@font-face {
+    font-family: poppins-regular;
+    src: url(../font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: poppins-medium;
+    src: url(../font/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: poppins-semibold;
+    src: url(../font/Poppins-SemiBold.ttf);
+}
+body {
+    background-color: #FAFAFA;
+    height: 3700px;
+}
+/* Navbar Style Start */
+.nav-container {
+    padding: 60px 0;
+}
+.navbar-brand {
+    font-family: nunito, sans-serif;
+    font-size: 28px;
+}
+.nav-item {
+    font-family: poppins-medium, sans-serif;
+    font-size: 16px;
+}
+.nav-link {
+    padding: 0 !important;
+    margin-right: 30px;
+    color: #232631 !important;
+}
+.nav-link:hover {
+    border-radius: 2px;
+    opacity: 1 !important;
+    border-bottom: 2px solid #5A4FCF ;
+}
+form {
+    width: 447px;
+}
+.btn-login {
+    background-color: rgba(90, 79, 207, 0.1);
+    color: #5A4FCF;
+    font-family: poppins-semibold, sans-serif;
+    font-size: 16px;
+    height: 57px;
+    width: 105px !important;
+    border-radius: 12px;
+}
+.form-control {
+    width: 322px;
+    height: 56px;
+    margin-right: 20px;
+    border-radius: 12px;
+}
+.form-control::placeholder {
+    font-family: poppins-medium, sans-serif;
+    color: #858585;
+    font-size: 16px;
+    text-align: center;
+    padding: 16px 56px 16px 62px;
+}
+.search-form {
+    position: relative;
+}
+.search-form img {
+    position: absolute;
+    left: 28px;
+    top: 16px;
+    margin-left: 10px;
+}
+.icon-resto {
+    width: 34px;
+    height: 34px;
+}
+.search-icon {
+    width: 24px;
+    height: 24px;
+}
+/* Navbar Style End */
+/* Caraousel Style Start */
+.carousel-item {
+    margin-left: 100px;
+}
+.resto-rate {
+    width: 390px;
+    height: 297px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    border-radius: 24px;
+    flex-direction: column;
+}
+.rating-section {
+    margin: 24px 0 0 24px;
+    height: 24px;
+}
+.rating-section img {
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+}
+.rating-section h5 {
+    font-family: poppins-semibold, sans-serif;
+    color: #FFB800;
+    font-size: 18px;
+    margin-left: 4px;
+}
+.rating-section p {
+    font-family: poppins-regular, sans-serif;
+    font-size: 16px;
+    color: #656565;
+    margin-left: 4px;
+}
+.header-rating {
+    flex-direction: column;
+    margin-left: 24px;
+}
+.header-rating h4 {
+    font-size: 22px;
+    font-family: poppins-semibold, sans-serif;
+    color: #232631;
+    margin-bottom: 4px;
+}
+.header-rating img {
+    width: 24px;
+    height: 24px;
+}
+.price {
+    font-size: 18px;
+    font-family: poppins-semibold, sans-serif;
+    color: #656565;
+    margin-bottom: 4px;
+}
+.location-rating {
+    font-size: 16px;
+    color: #656565;
+    font-family: poppins-regular, sans-serif;
+    margin-left: 6px;
+    margin-bottom: 34px;
+}
+.btn-reservation {
+    width: 226px;
+    height: 56px;
+    background-color: #FDC886;
+    border-radius: 12px;
+    font-family: poppins-semibold, sans-serif;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+.no-tax {
+    font-family: poppins-regular, sans-serif;
+    color: #656565;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 6px;
+}
+/* Caraousel Style End */
+/* Benefit style start */
+.benefit-section {
+    margin-top: 120px;
+}
+.header-benefit-section p{
+    font-family: poppins-semibold, sans-serif;
+    font-size: 16px;
+    color: #5A4FCF;
+    margin-bottom: 6px;
+}
+.header-benefit-section h3{
+    font-family: poppins-semibold, sans-serif;
+    font-size: 28px;
+    color: #232631;
+}
+.card-benenfit-section {
+    width: 310px;
+    height: 347px;
+    margin-top: 40px;
+    margin-right: 20px;
+    border-radius: 24px;
+    background-color: #fff;
+}
+.img-circle-background {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgba(253, 200, 134, 0.15);
+    margin: 24px 0;
+}
+.card-benenfit-section h5{
+    font-family: poppins-semibold, sans-serif;
+    font-size: 18px;
+    color: #232631;
+    margin-bottom: 12px;
+}
+.card-benenfit-section p{
+    font-family: poppins-regular, sans-serif;
+    font-size: 16px;
+    color: #656565;
+    margin-bottom: 67px;
+    padding: 0 16px;
+}
+.btn-details:hover {
+    font-family: poppins-semibold, sans-serif;
+    font-size: 16px;
+    color: #232631;
+    width: 310px;
+    height: 72px;
+    background-color: #FDC886;
+    border-radius: 12px 12px 24px 24px;
+    margin-left: -12px;
+}
+.btn-details {
+    font-family: poppins-semibold, sans-serif;
+    font-size: 16px;
+    color: #232631;
+}
+/* Benefit style End */
+/* popular style start */
+.popular-section {
+    margin-top: 120px;
+}
+.popular-section-content {
+    position: relative;
+}
+.popular-section-header {
+    flex-direction: column;
+    height: 475px;
+    padding-left: 0;
+}
+.popular-section-header p:first-child{
+    font-family: poppins-semibold, sans-serif;
+    color: #5A4FCF;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+.popular-section-header h3 {
+    font-family: poppins-semibold, sans-serif;
+    color: #232631;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.popular-section-header p:nth-child(3){
+    font-family: poppins-regular, sans-serif;
+    color: #656565;
+    font-size: 16px;
+    margin-bottom: 56px;
+    padding-right: 80px !important;
+}
+.btn-view-all {
+    font-family: poppins-semibold, sans-serif;
+    font-size: 16px;
+    color: #232631;
+    width: 238px;
+    height: 56px;
+    border-radius: 12px;
+    background-color: #FDC886;
+}
+.panel {
+    width: 214px;
+    height: 475px;
+    border-radius: 24px;
+    background:no-repeat scroll center;
+    flex: 1;
+    transition: all 0.3s linear;
+}
+#panel-1 {
+    background-image: url(../img/popular-1.png);
+}
+#panel-2 {
+    background-image: url(../img/popular-2.png);
+}
+#panel-3 {
+    background-image: url(../img/popular-3.png);
+}
+.active {
+    flex: 2;
+}
+.popular-section-description-image-1 {
+    position: absolute;
+    background-color: #fff;
+    width: 352px;
+    height: 131px;
+    border-radius: 24px;
+    left: 38px;
+    bottom: 24px;
+    padding: 24px;
+    z-index: 1;
+    display: none;
+}
+.popular-section-description-image-2 {
+    position: absolute;
+    background-color: #fff;
+    width: 352px;
+    height: 131px;
+    border-radius: 24px;
+    left: 255px;
+    bottom: 24px;
+    padding: 24px;
+    z-index: 1;
+    display: none;
+}
+.popular-section-description-image-3 {
+    position: absolute;
+    background-color: #fff;
+    width: 352px;
+    height: 131px;
+    border-radius: 24px;
+    left: 475px;
+    bottom: 24px;
+    padding: 24px;
+    z-index: 1;
+    display: none;
+}
+.active .popular-section-description-image-1 {
+   display: block;
+}
+.active .popular-section-description-image-2 {
+    display: block;
+}
+.active .popular-section-description-image-3 {
+    display: block;
+}
+.popular-section-description-rate {
+    height: 20px;
+    margin-bottom: 6px;
+}
+.popular-section-description-rate img{
+    width: 16px;
+    height: 16px;
+    margin-top: 2px;
+}
+.popular-section-description-rate h5{
+    font-family: poppins-semibold, sans-serif;
+    color: #FFB800;
+    font-size: 16px;
+    margin-right: 4px;
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+.popular-section-description-rate p{
+    font-family: poppins-regular, sans-serif;
+    font-size: 16px;
+    color: #656565;
+    margin-bottom: 0;
+}
+.popular-section-description-resto-name {
+    height: 25px;
+    margin-bottom: 4px;
+}
+.popular-section-description-resto-name h4 {
+    font-family: poppins-semibold, sans-serif;
+    font-size: 18px;
+    color: #232631;
+}
+.popular-section-description-location {
+    height: 25px;
+}
+.popular-section-description-location img {
+    width: 24px;
+    height: 24px;
+}
+.popular-section-description-location p {
+    font-family: poppins-regular, sans-serif;
+    font-size: 16px;
+    color: #656565;
+    margin-left: 6px;
+}
+.btn-continue {
+    background-color: #FDC886;
+    width: 36px;
+    height: 36px;
+    border-radius: 12px;
+    position: relative;
+    margin-top: 20px;
+}
+.btn-continue img {
+    position: absolute;
+    left: 5px;
+    bottom: 4px;
+}
+/* popular style end */
+/* Option Resto style start */
+.option-resto-section {
+    margin-top: 120px;
+}
+.option-resto-section-header p{
+    font-family: poppins-semibold, sans-serif;
+    color: #5A4FCF;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+.option-resto-section-header h3{
+    font-family: poppins-semibold, sans-serif;
+    color: #232631;
+    font-size: 28px;
+}
+.btn-location-option img:first-child{
+    margin-right: 6px;
+}
+.btn-location-option {
+    background-color: #f2f2f2;
+    width: 252px;
+    height: 64px;
+    border-radius: 12px;
+    font-family: poppins-medium, sans-serif;
+    color: #656565;
+    font-size: 16px;
+}
+.container-option-restaurant {
+    position: relative;
+}
+.zoomin-hover {
+    background-color: #232631;
+    width: 427px;
+    height: 415px;
+    margin-bottom: 56px;
+    border-radius: 24px;
+    margin-top: 32px;
+    overflow: hidden;
+}
+.option-resto-section-image-1 {
+    border-radius: 24px;
+    background-image: url(../img/option-resto-img-1.png);
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-position: bottom;
+    background-size: cover;
+    transition: all .5s;
+}
+.option-resto-section-image-2 {
+    border-radius: 24px;
+    background-image: url(../img/option-resto-img-2.png);
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+    background-position: bottom;
+    background-size: cover;
+    transition: all .5s;
+}
+.option-resto-section-image-3 {
+    background-image: url(../img/option-resto-img-3.png);
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+    background-position: bottom;
+    background-size: cover;
+    transition: all .5s;
+}
+.zoomin-hover:hover .option-resto-section-image-1, 
+.zoomin-hover:hover .option-resto-section-image-2, 
+.zoomin-hover:hover .option-resto-section-image-3 {
+    transform: scale(1.2);
+}
+.option-section-description-image {
+    position: absolute;
+    background-color: #fff;
+    width: 379px;
+    height: 134px;
+    border-radius: 24px;
+    left: 34px;
+    bottom: 88px;
+    padding: 24px;
+    z-index: 1;
+}
+.option-section-description-range-price {
+    font-family: poppins-semibold, sans-serif;
+    color: #656565;
+    font-size: 18px;
+}
+/* Option Resto style End */
+/* Footer Expert Chef style start */
+.footer-expert-chef-section {
+    margin-top: 120px;
+}
+.card-experience-expert-chef {
+    width: 180px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 24px;
+    top: 40px;
+    left: 480px;
+}
+.img-circle-background-footer {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgba(253, 200, 134, 0.15);
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+.card-experience-expert-chef h5 {
+    font-family: poppins-semibold, sans-serif;
+    font-size: 18px;
+    color: #232631;
+}
+.card-experience-expert-chef p {
+    font-family: poppins-regular, sans-serif;
+    font-size: 16px;
+    color: #656565;
+}
+.card-chef-at-restaurant {
+    width: 330px;
+    height: 180px;
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 24px;
+    bottom: 40px;
+}
+.img-footer-restaurant-description {
+    margin-left: 12px;
+}
+.img-footer-restaurant-description p {
+    font-family: poppins-medium, sans-serif;
+    font-size: 16px;
+    color: #656565;
+    margin-bottom: 4px !important;
+}
+.img-footer-restaurant-description h5 {
+    font-family: poppins-semibold, sans-serif;
+    font-size: 18px;
+    color: #232631;
+    margin-bottom: 24px !important;
+}
+.img-footer-restaurant-description a {
+    font-family: poppins-semibold, sans-serif;
+    font-size: 16px;
+    color: #FDC886;
+}
+.footer-img-expert-chef {
+    margin-left: 60px;
+}
+.top-chef-footer {
+    margin-left: 104px;
+}
+.top-chef-footer-header p{
+    font-family: poppins-semibold, sans-serif;
+    font-size: 18px;
+    color: #5A4FCF;
+    margin-bottom: 6px;
+}
+.top-chef-footer-header h3{
+    font-family: poppins-semibold, sans-serif;
+    font-size: 32px;
+    color: #232631;
+}
+.top-chef-footer-content-active {
+    margin-top: 32px;
+    margin-bottom: 10px;
+    padding: 24px;
+    border-radius: 24px;
+    width: 596px;
+}
+.top-chef-footer-content-active:hover {
+    background-color: #fff;
+}
+.card-footer-expert-chef p:nth-child(1){
+    font-family: poppins-medium, sans-serif;
+    font-size: 16px;
+    color: #656565;
+    margin-bottom: 6px !important;
+}
+.card-footer-expert-chef h3{
+    font-family: poppins-semibold, sans-serif;
+    font-size: 22px;
+    color: #232631;
+    margin-bottom: 6px !important;
+}
+.card-footer-expert-chef p:nth-child(3){
+    font-family: poppins-regular, sans-serif;
+    font-size: 16px;
+    color: #656565;
+}
+.card-footer-expert-chef p:nth-child(3) img{
+    margin-right: 6px;
+}
+.top-chef-footer-content-active .btn-profile-details a {
+    color: #FDC886;
+    font-family: poppins-medium, sans-serif;
+    font-size: 16px;
+}
+.btn-view-all-chef {
+    margin-top: 35px;
+}
+.button-view-all-chef {
+    background-color: #FDC886;
+    width: 186px;
+    height: 56px;
+    border-radius: 12px;
+    color: #232631;
+    font-size: 16px;
+    font-family: poppins-semibold, sans-serif;
+}
+/* Footer Expert Chef style end */
+/* animation hover button */
+.btn-login:hover {
+    background-color: rgba(135, 126, 228, 0.1);
+}
+.btn-reservation:hover,
+.btn-view-all:hover, 
+.button-view-all-chef:hover,
+.btn-continue:hover {
+    background-color: #ffd5a3;
+}
